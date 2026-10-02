@@ -41,6 +41,7 @@ while True:
             b = float(input('Enter second number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         print('Result: ' + str(add(a,b)))
         continue
 
@@ -49,10 +50,12 @@ while True:
             a = float(input('Enter first number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         try:
             b = float(input('Enter second number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         print(sub(a,b))
         continue
 
@@ -61,10 +64,12 @@ while True:
             a = float(input('Enter first number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         try:
             b = float(input('Enter second number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         print('Result: ' + str(mul(a,b)))
         continue
 
@@ -73,10 +78,12 @@ while True:
             a = float(input('Enter first number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         try:
             b = float(input('Enter second number > '))
         except ValueError:
             print('Please enter a number.')
+            continue
         print('Result: ' + str(div(a,b)))
         continue
 
